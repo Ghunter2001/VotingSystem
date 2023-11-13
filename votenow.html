@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/votenow.css">
+
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Students Dashboard Panel</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+                <img src="img/CvsuLogo.png" alt="">
+            </div>
+
+            <span class="logo_name">Voting System</span>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="dashboard.html">
+                        <i class="uil uil-estate"></i>
+                        <span class="link-name">Dashboard</span>
+                    </a></li>
+                <li><a href="#">
+                        <i class="uil uil-files-landscapes"></i>
+                        <span class="link-name">Candidates</span>
+                    </a></li>
+                <li><a href="#">
+                        <i class="uil uil-chart"></i>
+                        <span class="link-name">Results</span>
+                    </a></li>
+                <li><a href="votenow.html">
+                        <i class="uil uil-thumbs-up"></i>
+                        <span class="link-name">Vote Now</span>
+                    </a></li>
+            </ul>
+
+            <ul class="logout-mode">
+                <li><a href="#">
+                        <i class="uil uil-signout"></i>
+                        <span class="link-name">Logout</span>
+                    </a></li>
+
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                        <span class="link-name">Dark Mode</span>
+                    </a>
+
+                    <div class="mode-toggle">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="sidebar-toggle"><img src="img/bars.svg"></i>
+
+            <!--PROFILE-->
+            <img src="img/user.svg" alt="">
+        </div>
+
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-thumbs-up"></i>
+                    <span class="text">Votenow</span>
+                </div>
+            </div>
+
+            <div class="voteform">
+                <form action="#" class="vote-form" method="post">
+
+                        <div class="positions">
+                            <h1>President</h1>
+                            <div class="input-field">
+                                <i class="fas fa-envelope"></i>
+                                <select id="dropdown">
+                                    <option value="" disabled selected first;">Candidates</option>
+                                    <option value="1">David</option>
+                                    <option value="2">Luis</option>
+                                    <option value="3">Garcia</option>
+                                    <option value="4">Ganzo</option>
+                                    <option value="4">Jerome</option>
+                                    <option value="4">Argie</option>
+                                    <option value="4">Arnold</option>
+                                    <option value="4">Edwin</option>
+                                    <option value="4">Edmar</option>
+                                </select>
+                            </div>
+                            <div class="input-field">
+                                <i class="fas fa-envelope"></i>
+                                <select id="dropdown">
+                                    <option value="" disabled selected first;">Course</option>
+                                    <option value="1">BSIT</option>
+                                    <option value="2">BSCS</option>
+                                    <option value="3">BSBM</option>
+                                    <option value="4">BSHM</option>
+                                    <option value="4">BSC</option>
+                                    <option value="4">BSE</option>
+                                </select>
+                            </div>
+                            <div class="twoblock">
+                                <div class="input-field">
+                                    <i class="fas fa-envelope"></i>
+                                    <select id="dropdown">
+                                        <option value="" disabled selected first;">Year</option>
+                                        <option value="1">First Year</option>
+                                        <option value="2">Second Year</option>
+                                        <option value="3">Third Year</option>
+                                        <option value="4">Fourth Year</option>
+                                    </select>
+                                </div>
+                                <div class="input-field">
+                                    <i class="fas fa-envelope"></i>
+                                    <select id="dropdown">
+                                        <option value="" disabled selected first;">Section</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="positions">
+                            <h1>Vice President</h1>
+                            <div class="input-field">
+                                <i class="fas fa-envelope"></i>
+                                <select id="dropdown">
+                                    <option value="" disabled selected first;">Candidates</option>
+                                    <option value="1">David</option>
+                                    <option value="2">Luis</option>
+                                    <option value="3">Garcia</option>
+                                    <option value="4">Ganzo</option>
+                                    <option value="4">Jerome</option>
+                                    <option value="4">Argie</option>
+                                    <option value="4">Arnold</option>
+                                    <option value="4">Edwin</option>
+                                    <option value="4">Edmar</option>
+                                </select>
+                            </div>
+                            <div class="input-field">
+                                <i class="fas fa-envelope"></i>
+                                <select id="dropdown">
+                                    <option value="" disabled selected first;">Course</option>
+                                    <option value="1">BSIT</option>
+                                    <option value="2">BSCS</option>
+                                    <option value="3">BSBM</option>
+                                    <option value="4">BSHM</option>
+                                    <option value="4">BSC</option>
+                                    <option value="4">BSE</option>
+                                </select>
+                            </div>
+                            <div class="twoblock">
+                                <div class="input-field">
+                                    <i class="fas fa-envelope"></i>
+                                    <select id="dropdown">
+                                        <option value="" disabled selected first;">Year</option>
+                                        <option value="1">First Year</option>
+                                        <option value="2">Second Year</option>
+                                        <option value="3">Third Year</option>
+                                        <option value="4">Fourth Year</option>
+                                    </select>
+                                </div>
+                                <div class="input-field">
+                                    <i class="fas fa-envelope"></i>
+                                    <select id="dropdown">
+                                        <option value="" disabled selected first;">Section</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="positions">
+                            <h1>Secretary</h1>
+                            <div class="input-field">
+                                <i class="fas fa-envelope"></i>
+                                <select id="dropdown">
+                                    <option value="" disabled selected first;">Candidates</option>
+                                    <option value="1">David</option>
+                                    <option value="2">Luis</option>
+                                    <option value="3">Garcia</option>
+                                    <option value="4">Ganzo</option>
+                                    <option value="4">Jerome</option>
+                                    <option value="4">Argie</option>
+                                    <option value="4">Arnold</option>
+                                    <option value="4">Edwin</option>
+                                    <option value="4">Edmar</option>
+                                </select>
+                            </div>
+                            <div class="input-field">
+                                <i class="fas fa-envelope"></i>
+                                <select id="dropdown">
+                                    <option value="" disabled selected first;">Course</option>
+                                    <option value="1">BSIT</option>
+                                    <option value="2">BSCS</option>
+                                    <option value="3">BSBM</option>
+                                    <option value="4">BSHM</option>
+                                    <option value="4">BSC</option>
+                                    <option value="4">BSE</option>
+                                </select>
+                            </div>
+                            <div class="twoblock">
+                                <div class="input-field">
+                                    <i class="fas fa-envelope"></i>
+                                    <select id="dropdown">
+                                        <option value="" disabled selected first;">Year</option>
+                                        <option value="1">First Year</option>
+                                        <option value="2">Second Year</option>
+                                        <option value="3">Third Year</option>
+                                        <option value="4">Fourth Year</option>
+                                    </select>
+                                </div>
+                                <div class="input-field">
+                                    <i class="fas fa-envelope"></i>
+                                    <select id="dropdown">
+                                        <option value="" disabled selected first;">Section</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="positions">
+                            <h1>Treasurer</h1>
+                            <div class="input-field">
+                                <i class="fas fa-envelope"></i>
+                                <select id="dropdown">
+                                    <option value="" disabled selected first;">Candidates</option>
+                                    <option value="1">David</option>
+                                    <option value="2">Luis</option>
+                                    <option value="3">Garcia</option>
+                                    <option value="4">Ganzo</option>
+                                    <option value="4">Jerome</option>
+                                    <option value="4">Argie</option>
+                                    <option value="4">Arnold</option>
+                                    <option value="4">Edwin</option>
+                                    <option value="4">Edmar</option>
+                                </select>
+                            </div>
+                            <div class="input-field">
+                                <i class="fas fa-envelope"></i>
+                                <select id="dropdown">
+                                    <option value="" disabled selected first;">Course</option>
+                                    <option value="1">BSIT</option>
+                                    <option value="2">BSCS</option>
+                                    <option value="3">BSBM</option>
+                                    <option value="4">BSHM</option>
+                                    <option value="4">BSC</option>
+                                    <option value="4">BSE</option>
+                                </select>
+                            </div>
+                            <div class="twoblock">
+                                <div class="input-field">
+                                    <i class="fas fa-envelope"></i>
+                                    <select id="dropdown">
+                                        <option value="" disabled selected first;">Year</option>
+                                        <option value="1">First Year</option>
+                                        <option value="2">Second Year</option>
+                                        <option value="3">Third Year</option>
+                                        <option value="4">Fourth Year</option>
+                                    </select>
+                                </div>
+                                <div class="input-field">
+                                    <i class="fas fa-envelope"></i>
+                                    <select id="dropdown">
+                                        <option value="" disabled selected first;">Section</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="positions">
+                            <h1>P.O</h1>
+                            <div class="input-field">
+                                <i class="fas fa-envelope"></i>
+                                <select id="dropdown">
+                                    <option value="" disabled selected first;">Candidates</option>
+                                    <option value="1">David</option>
+                                    <option value="2">Luis</option>
+                                    <option value="3">Garcia</option>
+                                    <option value="4">Ganzo</option>
+                                    <option value="4">Jerome</option>
+                                    <option value="4">Argie</option>
+                                    <option value="4">Arnold</option>
+                                    <option value="4">Edwin</option>
+                                    <option value="4">Edmar</option>
+                                </select>
+                            </div>
+                            <div class="input-field">
+                                <i class="fas fa-envelope"></i>
+                                <select id="dropdown">
+                                    <option value="" disabled selected first;">Course</option>
+                                   <option value="1">BSIT</option>
+                                    <option value="2">BSCS</option>
+                                    <option value="3">BSBM</option>
+                                    <option value="4">BSHM</option>
+                                    <option value="4">BSC</option>
+                                    <option value="4">BSE</option>
+                                </select>
+                            </div>
+                            <div class="twoblock">
+                                <div class="input-field">
+                                    <i class="fas fa-envelope"></i>
+                                    <select id="dropdown">
+                                        <option value="" disabled selected first;">Year</option>
+                                        <option value="1">First Year</option>
+                                        <option value="2">Second Year</option>
+                                        <option value="3">Third Year</option>
+                                        <option value="4">Fourth Year</option>
+                                    </select>
+                                </div>
+                                <div class="input-field">
+                                    <i class="fas fa-envelope"></i>
+                                    <select id="dropdown">
+                                        <option value="" disabled selected first;">Section</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="positions">
+                            <h1>P.I.O</h1>
+                            <div class="input-field">
+                                <i class="fas fa-envelope"></i>
+                                <select id="dropdown">
+                                    <option value="" disabled selected first;">Candidates</option>
+                                    <option value="1">David</option>
+                                    <option value="2">Luis</option>
+                                    <option value="3">Garcia</option>
+                                    <option value="4">Ganzo</option>
+                                    <option value="4">Jerome</option>
+                                    <option value="4">Argie</option>
+                                    <option value="4">Arnold</option>
+                                    <option value="4">Edwin</option>
+                                    <option value="4">Edmar</option>
+                                </select>
+                            </div>
+                            <div class="input-field">
+                                <i class="fas fa-envelope"></i>
+                                <select id="dropdown">
+                                    <option value="" disabled selected first;">Course</option>
+                                    <option value="1">BSIT</option>
+                                    <option value="2">BSCS</option>
+                                    <option value="3">BSBM</option>
+                                    <option value="4">BSHM</option>
+                                    <option value="4">BSC</option>
+                                    <option value="4">BSE</option>
+                                </select>
+                            </div>
+                            <div class="twoblock">
+                                <div class="input-field">
+                                    <i class="fas fa-envelope"></i>
+                                    <select id="dropdown">
+                                        <option value="" disabled selected first;">Year</option>
+                                        <option value="1">First Year</option>
+                                        <option value="2">Second Year</option>
+                                        <option value="3">Third Year</option>
+                                        <option value="4">Fourth Year</option>
+                                    </select>
+                                </div>
+                                <div class="input-field">
+                                    <i class="fas fa-envelope"></i>
+                                    <select id="dropdown">
+                                        <option value="" disabled selected first;">Section</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="submit" class="btn" value="Confirm" />
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="script/dashboard.js"></script>
+</body>
+
+</html>
